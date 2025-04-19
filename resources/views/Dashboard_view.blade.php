@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mlakuraso Dashboard</title>
     <style>
-        /* Reset dasar */
         * {
             margin: 0;
             padding: 0;
@@ -18,7 +17,6 @@
             color: #333;
         }
 
-        /* Navbar */
         .navbar {
             background-color: #ff6347;
             padding: 15px 30px;
@@ -66,7 +64,6 @@
             object-fit: cover;
         }
 
-        /* Hero Section */
         .hero-section {
             padding: 80px 30px;
             color: white;
@@ -83,7 +80,6 @@
             margin: 5px 0;
         }
 
-        /* Icon Section */
         .icon-section {
             padding: 40px 20px;
             background-color: #fff;
@@ -144,11 +140,12 @@
                 <li><a href="{{ url('/trending') }}">Rekomendasi</a></li>
                 <li><a href="{{ url('/event') }}">Event</a></li>
                 <li><a href="{{ url('/kategori') }}">Kategori</a></li>
-            
+            </ul>
+        </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero-section">
+    <section class="hero-section" style="background-color: #ff6347;">
         <div class="container">
             <div class="welcome-text">
                 <h2>Welcome to Mlakuraso,</h2>
@@ -167,31 +164,31 @@
         <div class="container">
             <div class="icon">
                 <a href="{{ url('/kategori') }}">
-                    <img src="{{ asset('img/rumah_makan.png') }}" alt="Tempat Makan">
+                    <img src="{{ asset('images/rumah_makan.png') }}" alt="Tempat Makan">
                     <p>Tempat makan</p>
                 </a>
             </div>
             <div class="icon">
                 <a href="{{ url('/event') }}">
-                    <img src="{{ asset('img/event.png') }}" alt="Event">
+                    <img src="{{ asset('images/event.png') }}" alt="Event">
                     <p>Event</p>
                 </a>
             </div>
             <div class="icon">
                 <a href="{{ url('/trending') }}">
-                    <img src="{{ asset('img/trending.png') }}" alt="Trending">
+                    <img src="{{ asset('images/trending.png') }}" alt="Trending">
                     <p>Trending</p>
                 </a>
             </div>
             <div class="icon">
                 <a href="{{ url('/favorit') }}">
-                    <img src="{{ asset('img/love.png') }}" alt="Favorit">
+                    <img src="{{ asset('images/love.png') }}" alt="Favorit">
                     <p>Favorit</p>
                 </a>
             </div>
             <div class="icon">
                 <a href="{{ url('/terdekat') }}">
-                    <img src="{{ asset('img/terdekat.png') }}" alt="Terdekat">
+                    <img src="{{ asset('images/terdekat.png') }}" alt="Terdekat">
                     <p>Terdekat</p>
                 </a>
             </div>
