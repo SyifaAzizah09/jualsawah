@@ -8,7 +8,7 @@
 <body class="bg-pink-100 min-h-screen flex flex-col items-center justify-center p-10">
 
     <h1 class="text-4xl font-bold text-pink-700 mb-8 drop-shadow-md">
-        Ini Adalah Halaman Tugas Public
+        Selamat Datang Di Makanan Terbaik
     </h1>
 
     <div class="flex flex-col md:flex-row gap-6">

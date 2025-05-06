@@ -50,5 +50,8 @@ Route::get('/Dashboard_view', function () {
 
 Route::get('/list_product', [ProductController::class, 'index']);
 
+Route::get('/jualsawah', function () {
+   return view('pages.home');
+});
 
          
