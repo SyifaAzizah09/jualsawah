@@ -54,4 +54,20 @@ Route::get('/jualsawah', function () {
    return view('pages.home');
 });
 
+Route::get('/jualsawah', function () {
+   return view('pages.about');
+});
+
+Route::get('/jualsawah', function () {
+   return view('pages.kontak');
+});
+
+Route::get('/jualsawah', function () {
+   return view('pages.produk_detail');
+});
+
+Route::get('/jualsawah', function () {
+   return view('pages.komutitas');
+});
+
          
